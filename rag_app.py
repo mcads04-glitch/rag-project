@@ -4,3 +4,6 @@ from dotenv import load_dotenv
 import os
 load_dotenv()
 api_key = os.getenv("GOOGLE_API_KEY")
+@app.get("/health")
+def health_check():
+    return {"status": "ok"}

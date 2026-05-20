@@ -12,3 +12,5 @@ This project will be built incrementally each week.
 - git add  
 - git commit  
 - git push
+
+Set up basic project structure,loaded API key from environment variable,and created a health endpoint.
