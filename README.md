@@ -82,3 +82,16 @@ curl http://127.0.0.1:8000/generate-text
 - Initial setup with basic project files
 - Health endpoint and environment-based API key loading
 - Multi-step `/generate-text` endpoint (outline → story)
+
+## Input Validation 
+
+-Input validation is crucial for preventing erros and ensuring the application receives only valid data
+
+## Output Validation 
+
+-It protects the system form unexpected responses
+-It prevents potential data misuse and maintains system stability
+
+## Challenges and open questions 
+
+-A key challenge includes managing API quota limits and dealing with potential delays.
